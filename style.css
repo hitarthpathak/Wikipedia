@@ -1,0 +1,340 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1vw;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 90vw;
+    margin: auto;
+}
+
+.top {
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-left {
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.triple-bar {
+    height: 100%;
+    width: 2vw;
+}
+
+#triple-bar-icon {
+    height: 100%;
+    width: 100%;
+}
+
+.wikipedia-logo {
+    height: 100%;
+    width: 13vw;
+}
+
+#wikipedia-logo-icon {
+    height: 100%;
+    width: 100%;
+}
+
+.top-centre {
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box {
+    border: 1px solid gray;
+    height: 2.5rem;
+    width: 40vw;
+    display: flex;
+}
+
+#search-logo {
+    height: auto;
+    width: auto;
+    margin: 0.5rem;
+}
+
+#search-bar {
+    border: none;
+    height: 100%;
+    width: 80%;
+    font-size: 1vw;
+    padding: 0px 5px;
+}
+
+#search-btn {
+    border: none;
+    border-left: 1px solid gray;
+    height: 100%;
+    width: 6vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.top-right {
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#three-dots {
+    height: 100%;
+    width: 1.5vw;
+}
+
+.middle {
+    box-sizing: border-box;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.side-bar {
+    box-sizing: border-box;
+    height: fit-content;
+    width: 20vw;
+    margin-top: 5rem;
+    padding: 1vh;
+}
+
+.side-bar h1 {
+    line-height: 2.5em;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+#shortcuts {
+    margin-top: 1rem;
+    line-height: 2.5rem;
+}
+
+.main-body {
+    box-sizing: border-box;
+    height: auto;
+    width: 80vw;
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title {
+    font-size: 2.5vw;
+    font-weight: normal;
+    font-family: 'Times New Roman';
+}
+
+#page-translate {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    gap: 0.5vw;
+}
+
+#translate {
+    height: 1.5rem;
+    width: auto;
+}
+
+.sub-title {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2.5rem;
+}
+
+.sub-title-1 {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.sub-title-2 {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.article {
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    line-height: 2rem;
+}
+
+.article ul {
+    padding-left: 2vw;
+}
+
+.from-wikipedia {
+    height: auto;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-box {
+    border: 1px solid gray;
+    box-sizing: border-box;
+    height: fit-content;
+    width: 20vw;
+    float: right;
+    margin-left: 0.5vw;
+    padding: 0.5rem;
+}
+
+.profile-photo-box {
+    box-sizing: border-box;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+.profile {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-photo {
+    height: 100%;
+    width: 100%;
+}
+
+.details {
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 5px;
+}
+
+#ques {
+    box-sizing: border-box;
+    height: auto;
+    width: 10rem;
+    text-align: start;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+#ans {
+    box-sizing: border-box;
+    height: auto;
+    width: 15rem;
+    text-align: start;
+    line-height: 2rem;
+}
+
+.second-title {
+    font-size: 2vw;
+    line-height: 2.5rem;
+    font-weight: normal;
+    font-family: 'Times New Roman';
+}
+
+.bottom {
+    height: auto;
+    width: auto;
+    margin: 3rem 0rem 7rem 0rem;
+    font-size: 0.9rem;
+}
+
+.bottom a {
+    font-size: 0.9rem;
+}
+
+.last-anchor-line {
+    height: 5vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-anchor {
+    display: flex;
+    gap: 2rem;
+}
+
+#last-anchor {
+    font-size: 0.9rem;
+}
+
+.last-anchor-icons {
+    height: 2.2rem;
+    width: 13rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.last-anchor-icon-1 {
+    height: 100%;
+    width: auto;
+}
+
+.last-anchor-icon-2 {
+    height: 100%;
+    width: auto;
+}
+
+#wikimedia {
+    height: 100%;
+    width: 100%;
+}
+
+#mediawiki {
+    height: 100%;
+    width: 100%;
+}
