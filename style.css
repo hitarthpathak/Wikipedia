@@ -86,6 +86,7 @@ a:hover {
 
 #search-bar {
     border: none;
+    outline: none;
     height: 100%;
     width: 80%;
     font-size: 1vw;
